@@ -1,0 +1,22 @@
+#converterbox {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    height: 35%;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: #ccc;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+
+#result {
+    padding: 20px;
+    font-size: x-large;
+    font-weight: bold;
+}
