@@ -37,3 +37,5 @@ function convertCurrency() {
 }
 
 window.onloadstart = fetchingData();
+
+document.getElementById('convertbutton').addEventListener('click', convertCurrency);
