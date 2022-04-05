@@ -33,6 +33,7 @@ function convertCurrency() {
         let rate = data[toCurrency];
         let convertedAmount = amount * rate;
         result.innerHTML = amount + ' ' + fromCurrencyvalue + ' ' + " = " + convertedAmount + ' ' +toCurrencyvalue;
+        result.style.display = "block";
     });
 }
 

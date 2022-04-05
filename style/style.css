@@ -22,8 +22,13 @@ body {
 }
 
 #result {
+    display: none;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+    width: 45%;
     padding: 20px;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -31,6 +36,7 @@ body {
 #convertbutton {
     border: none;
     background: none;
+    padding: 35px;
 }
 
 #convertbutton span {
@@ -76,4 +82,14 @@ body {
 #convertbutton:hover .hover-underline-animation:after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.input {
+    border: 1.5px solid #666;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    height: 2,5%;
+    width: 25%;
 }
