@@ -98,3 +98,78 @@ body {
     height: 2, 5%;
     width: 25%;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #converterbox {
+        width: 80%;
+        height: 50%;
+    }
+
+    #result {
+        width: 80%;
+    }
+
+    #convertbutton {
+        padding: 20px;
+    }
+
+    .input {
+        width: 70%;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #converterbox {
+        width: 75%;
+        height: 50%;
+    }
+
+    #result {
+        width: 45%;
+    }
+
+    .input {
+        width: 50%;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #converterbox {
+        width: 80%;
+        height: 50%;
+    }
+
+    #result {
+        width: 45%;
+    }
+
+    .input {
+        width: 50%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #result {
+        width: 45%;
+    }
+
+    .input {
+        width: 25%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #result {
+        width: 45%;
+    }
+
+    .input {
+        width: 25%;
+    }
+}
