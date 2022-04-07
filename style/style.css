@@ -1,5 +1,4 @@
 html {
-    height: 100%;
     width: 100%;
 }
 
@@ -96,79 +95,35 @@ body {
     margin: 10px;
     padding: 10px;
     height: 2, 5%;
-    width: 25%;
+    width: 50%;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #converterbox {
-        width: 80%;
-        height: 50%;
-    }
-
-    #result {
-        width: 80%;
-    }
-
-    #convertbutton {
-        padding: 20px;
-    }
-
-    .input {
-        width: 70%;
-    }
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Design for phones */
+@media only screen and (max-width: 768px) {
     #converterbox {
         width: 75%;
-        height: 50%;
+        height: 70%;
+    }
+    
+    .input {
+        font-size: small;
     }
 
     #result {
-        width: 45%;
+        font-size: medium;
     }
 
-    .input {
-        width: 50%;
-    }
 } 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Design for tablets (max width of 992px) */
+@media only screen and (min-width: 768px)  and (max-width: 992px) {
     #converterbox {
         width: 80%;
-        height: 50%;
+        height: 60%;
     }
+}
 
-    #result {
-        width: 45%;
-    }
-
-    .input {
-        width: 50%;
-    }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
-    #result {
-        width: 45%;
-    }
-
-    .input {
-        width: 25%;
-    }
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    #result {
-        width: 45%;
-    }
-
     .input {
         width: 25%;
     }
